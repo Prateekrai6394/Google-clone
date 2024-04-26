@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -43px;
+}
+
+h1,
+h2,
+p {
+    color: hsl(0, 0%, 0%);
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+/** 
+    padding: TOP RIGHT BOTTOM LEFT
+    padding: [top-bottom] [left-right]
+    padding: top left-right bottom   ==> Same is for margin
+
+*/
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 17px 18px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: "arial";
+    font-size: 12.5px;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+input.search-input {
+    padding-left: 50px;
+}
+
+.search-input {
+    width: 582px;
+    border: none;
+    height: 46px;
+    font-size: 1rem;
+    border-radius: 40px;
+    border: .1px solid #ebecee;
+    margin-top: 5%;
+    outline: #4d5156;
+}
+
+.google-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22%;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.button {
+    padding-top: 24px;
+    display: flex;
+}
+
+.button1 {
+    width: 126px;
+    height: 36px;
+    border: none;
+    background-color: #f8f9fa;
+    margin-right: 12px;
+    color: #4b4f52;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    padding: 10px;
+}
+
+.button2 {
+    color: #4b4f52;
+    width: 144px;
+    height: 36px;
+    border: none;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    padding: 10px;
+}
+
+
+
+.foot-box1 {
+    height: 49px;
+    background-color: #f1f3f4;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #202124;
+    font-family: arial, sans-serif;
+}
+
+
+
+.search-icon {
+    border: .1px transparent #ebecee;
+    position: relative;
+    left: 30px;
+    top: 15px;
+    line-height: 5;
+}
+
+.fa-solid.fa-magnifying-glass {
+    color: #9fa5aa;
+}
+
+
+
+.hindi-para {
+    display: flex;
+    margin-top: 23px;
+    text-align: center;
+    justify-content: center;
+    font-family: "arial";
+    font-size: 12.5px;
+}
+
+.h-para1 span {
+    color: #4d5156;
+    display: inline-block;
+    word-spacing: 1px;
+}
+
+.h-para1 {
+    color: #2113bf;
+    line-height: 26px;
+    font-size: small;
+    word-spacing: 5.5px;
+}
+
+.sign-in {
+    background-color: #1a73e8;
+    border-radius: 5px;
+    color: white;
+    width: 96px;
+    height: 36px;
+    border: none;
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+
+.footer {
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2
+}
+
+.main-foot {
+    position: fixed;
+    bottom: 0px;
+    color: #202124;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.foot-box2 {
+    background-color: #f1f3f4;
+    border-bottom: 0.3px solid #ccced2;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+.foot1 {
+    list-style-type: none;
+    padding-left: 4px;
+    float: left;
+    display: flex;
+    margin: 15px;
+    margin-left: 30px;
+    color: #202124;
+
+}
+
+.foot2 {
+    list-style-type: none;
+    padding-top: 15px;
+    display: flex;
+    float: right;
+    margin-right: 8px;
+    color: #202124;
+}
+
+.foot-box2 ul li {
+    margin-right: 30px;
+}
+
+.mic-image {
+    border: .1px transparent #ebecee73;
+    position: relative;
+    right: 90px;
+    /* top: 30px; */
+    line-height: 8.5;
+    width: 0px;
+    height: 0px;
+}
+
+.search-input:hover {
+    box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
